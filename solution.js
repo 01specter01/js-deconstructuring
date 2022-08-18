@@ -28,3 +28,9 @@ const [first, second] = names;
 const [, , ...rest] = names;
 console.log(rest);
 console.log(first, second, rest);
+
+// function isValid(test) {
+//     const result1 = isValid.filter((test) => test.includes("kyu"));
+//     console.log(result1);
+// }
+// isValid("codewars.com");
